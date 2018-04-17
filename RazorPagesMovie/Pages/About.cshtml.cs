@@ -12,6 +12,8 @@ namespace RazorPagesMovie.Pages
 
         public void OnGet()
         {
+            var ddd = "";
+            var a = string.Format("ggghth{0}", ddd);
             Message = "Your application description page.";
         }
     }

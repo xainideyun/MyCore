@@ -19,6 +19,7 @@ namespace RazorPagesMovie
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                //                .UseWebRoot("haha")              //指定根内容目录
                 .UseStartup<Startup>()
                 .Build();
     }
